@@ -1,15 +1,17 @@
 {
   "name": "minecraft-afk-bot",
   "version": "3.0.0",
-  "description": "AFK bot for Minecraft servers (updated for latest versions)",
+  "description": "AFK bot for Minecraft servers (updated)",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Tanmay (edited)",
   "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
-    "mineflayer": "^4.41.0"
+    "mineflayer": "^4.33.0"
   }
 }
